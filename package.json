@@ -18,6 +18,10 @@
     "@angular/platform-browser": "^14.2.2",
     "@angular/platform-browser-dynamic": "^14.2.2",
     "@angular/router": "^14.2.2",
+    "@cds/core": "^6.1.4",
+    "@clr/angular": "^13.8.2",
+    "@clr/icons": "^13.0.2",
+    "@clr/ui": "^13.8.2",
     "rxjs": "~7.5.6",
     "tslib": "^2.4.0",
     "zone.js": "~0.11.8"
@@ -26,6 +30,7 @@
     "@angular-devkit/build-angular": "^14.2.3",
     "@angular/cli": "~14.2.3",
     "@angular/compiler-cli": "^14.2.2",
+    "@playwright/test": "^1.25.2",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.4.0",
     "karma": "~6.4.0",
