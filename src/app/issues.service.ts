@@ -7,7 +7,7 @@ import { Issue } from './issue';
 })
 export class IssuesService {
   private issues: Issue[] = issues;
-  constructor() {}
+
   getPendingIssues(): Issue[] {
     return this.issues.filter((issue) => !issue.completed);
   }
@@ -33,5 +33,10 @@ export class IssuesService {
       return this.issues.filter((issue) => issue.title.indexOf(title) !== -1);
     }
     return [];
+  }
+
+  updateIssue(issue: Issue) {
+    const index = this.issues.findIndex((i) => i === issue);
+    this.issues[index] = issue;
   }
 }
